@@ -1,0 +1,152 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url(imagens/fundo-da-pagina/fundo-principal.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cabecalho {
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cabecalho:hover {
+    background-color: #FF6600;
+    color: black;
+}
+
+h3 {
+    color: white;
+}
+
+
+.parte-branca {
+    color: white;
+    font-size: 60px;
+}
+
+.parte-laranja {
+    color: #FF6600;
+    font-size: 60px;
+}
+
+.titulo-nova-colecao {
+    color: #FF6600;
+    padding: 0 70px;
+    font-size: 30px;
+}
+
+.titulo-encontre-seu-estilo {
+    color: white;
+    padding: 0 90px;
+    font-size: 60px;
+}
+
+.titulo-melhores-tenis {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    padding: 0 90px;
+}
+
+.store {
+    color: white;
+    font-weight: 100;
+}
+
+#tela-de-inicio {
+    display: flex;
+}
+
+.container-anuncios {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 1px 20px;
+    box-sizing: border-box;
+}
+
+
+.anuncio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.tipo {
+    text-align: center;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    min-height: 80vh;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.titulos {
+    flex: 1;
+    max-width: 50%;
+}
+
+.genero {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tipo-genero {
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 15px 50px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.tipo-genero:hover {
+    background-color: #FF6600;
+    color: black;
+}
+
+.cabecalho {
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px 40px;
+}
+
+@media (max-width: 768px) {
+    .banner-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-texto {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+}
