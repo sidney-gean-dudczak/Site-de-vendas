@@ -21,6 +21,9 @@ header {
     color: #fff;
     text-decoration: none;
     transition: background-color 0.3s ease;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px 40px;
 }
 
 .cabecalho:hover {
@@ -31,7 +34,6 @@ header {
 h3 {
     color: white;
 }
-
 
 .parte-branca {
     color: white;
@@ -78,7 +80,6 @@ h3 {
     padding: 1px 20px;
     box-sizing: border-box;
 }
-
 
 .anuncio {
     display: flex;
@@ -133,12 +134,6 @@ h3 {
     color: black;
 }
 
-.cabecalho {
-    border: 1px solid white;
-    border-radius: 30px;
-    padding: 10px 40px;
-}
-
 @media (max-width: 768px) {
     .banner-container {
         flex-direction: column;
@@ -160,21 +155,17 @@ h3 {
     margin: 0 auto;
 }
 
-
 .card-produto {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     height: 100%;
-
-    
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     padding: 20px 16px;
     background-color: rgba(0, 0, 0, 0.4);
     transition: transform 0.2s ease, border-color 0.2s ease;
-
 }
 
 .card-produto:hover {
@@ -204,11 +195,10 @@ h3 {
     text-align: center;
     width: max-content;
     min-width: 170px;
-    padding: 10px 25px;
-    font-size: 17px;
     border: 1px solid white;
     border-radius: 30px;
     padding: 5px 10px;
+    font-size: 17px;
     color: white;
     text-decoration: none;
     transition: background-color 0.3s ease;
@@ -218,4 +208,144 @@ h3 {
     background-color: #FF6600;
     color: black;
     font-weight: bold;
+}
+
+.pagina-de-vendas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.imagem-ao-lado {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.imagem-pequena {
+    width: 90px;
+    height: 90px;
+    background-color: #161616;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.imagem-pequena:hover {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.imagem-pequena img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.imagem-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-principal img {
+    max-width: 100%;
+
+}
+
+.detalhes-do-produto {
+    width: 380px;
+}
+
+.nome-do-produto {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 24px;
+}
+
+.preco-do-produto {
+    margin-bottom: 24px;
+}
+
+.preco {
+    color: white;
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.cor-do-tenis {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 32px;
+}
+
+.cor-do-tenis button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+}
+
+.cor-do-tenis button:hover {
+    transform: scale(1.1);
+}
+
+.botao-preto {
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.botao-branco {
+    background-color: white;
+    border: 1px solid transparent;
+}
+
+.botao-azul {
+    background-color: blue;
+    border: 1px solid transparent;
+}
+
+.tamanho-do-tenis {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.botao-tamanho {
+    width: 50px;
+    height: 40px;
+    background-color: #161616;
+    border: 1px solid #2a2a2a;
+    color: #ffffff;
+    border-radius: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: border-color 0.2s ease;
+}
+
+.botao-tamanho:hover {
+    border-color: #ffffff;
+}
+
+.botao-comprar {
+    width: 100%;
+    padding: 16px;
+    background-color: #FF6600;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botao-comprar:hover {
+    background-color: #e05a00;
 }
