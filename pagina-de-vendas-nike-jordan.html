@@ -11,11 +11,13 @@
 </head>
 
 <body>
+    <script src="acessibilidade.js"></script>
+
 
     <header>
 
         <h1>
-            
+
             <span class="parte-branca">SNEA</span>
             <span class="parte-laranja">KERS</span>
             <br>
@@ -25,7 +27,19 @@
         <a href="index.html" class="cabecalho">Inicio</a>
         <a href="promocoes.html" class="cabecalho">Promoções</a>
         <a href="lancamentos.html" class="cabecalho">Laçamentos</a>
-        <a href="sobre-nos.html" class="cabecalho">Sobre nós</a>
+<div class="painel-acessibilidade">
+
+    <button onclick="alterarZoom(1)">A+</button>
+
+    <button onclick="alterarZoom(-1)">A-</button>
+
+    <button onclick="alterarContraste(1)">+ Contraste</button>
+
+    <button onclick="alterarContraste(-1)">- Contraste</button>
+
+    <button onclick="restaurarAcessibilidade()">Restaurar</button>
+
+</div>
 
     </header>
 
@@ -33,22 +47,22 @@
 
         <section class="imagem-ao-lado">
 
-              <div class="imagem-pequena"><img src="imagens/produtos/nike-jordan/cor-laranja/jordan-modelo.jpg" alt="">
+              <div class="imagem-pequena"><img src="imagens/produtos/nike-jordan/cor-laranja/jordan-modelo.jpg" alt="Nike Jordan laranja modelo usando">
                     </div>
 
-            <div class="imagem-pequena"><img src="imagens/produtos/nike-jordan/cor-laranja/jordan-1.png" alt="">
+            <div class="imagem-pequena"><img src="imagens/produtos/nike-jordan/cor-laranja/jordan-1.png" alt="Nike Jordan laranja imagem 1">
             </div>
 
-            <div class="imagem-pequena"><img src="imagens/produtos/nike-jordan/cor-laranja/jordan-2.png" alt="">
+            <div class="imagem-pequena"><img src="imagens/produtos/nike-jordan/cor-laranja/jordan-2.png" alt="Nike Jordan laranja imagem 2">
             </div>
 
-          
-        
+
+
 
         </section>
 
         <section class="imagem-principal">
-            <img src="imagens/produtos/nike-jordan/cor-laranja/jordan-3.png" alt="">
+            <img src="imagens/produtos/nike-jordan/cor-laranja/jordan-3.png" alt="Nike Jordan laranja imagem principal">
         </section>
 
         <section class="detalhes-do-produto">

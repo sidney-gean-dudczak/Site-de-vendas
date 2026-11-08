@@ -11,6 +11,8 @@
 </head>
 
 <body>
+    <script src="acessibilidade.js"></script>
+
 
     <header>
 
@@ -25,21 +27,33 @@
         <a href="index.html" class="cabecalho">Inicio</a>
         <a href="promocoes.html" class="cabecalho">Promoções</a>
         <a href="lancamentos.html" class="cabecalho">Laçamentos</a>
-        <a href="sobre-nos.html" class="cabecalho">Sobre nós</a>
 
+<div class="painel-acessibilidade">
+
+    <button onclick="alterarZoom(1)">A+</button>
+
+    <button onclick="alterarZoom(-1)">A-</button>
+
+    <button onclick="alterarContraste(1)">+ Contraste</button>
+
+    <button onclick="alterarContraste(-1)">- Contraste</button>
+
+    <button onclick="restaurarAcessibilidade()">Restaurar</button>
+
+</div>
     </header>
 
     <main class="pagina-de-vendas">
 
         <section class="imagem-ao-lado">
 
-            <div class="imagem-pequena"><img src="imagens/produtos/nike-vomero/modelo-usando.jpg" alt="">
+            <div class="imagem-pequena"><img src="imagens/produtos/nike-vomero/modelo-usando.jpg" alt="Nike Vomero modelo usando">
             </div>
 
-            <div class="imagem-pequena"><img src="imagens/produtos/nike-vomero/nike-vomero-2.png" alt="">
+            <div class="imagem-pequena"><img src="imagens/produtos/nike-vomero/nike-vomero-2.png" alt="Nike Vomero imagem 2">
             </div>
 
-            <div class="imagem-pequena"><img src="imagens/produtos/nike-vomero/nike-vomero-1.png" alt="">
+            <div class="imagem-pequena"><img src="imagens/produtos/nike-vomero/nike-vomero-1.png" alt="Nike Vomero imagem 1">
             </div>
 
 
@@ -48,7 +62,7 @@
         </section>
 
         <section class="imagem-principal">
-            <img src="imagens/produtos/nike-vomero/nike-vomero-3.png" alt="">
+            <img src="imagens/produtos/nike-vomero/nike-vomero-3.png" alt="Nike Vomero imagem principal">
         </section>
 
         <section class="detalhes-do-produto">

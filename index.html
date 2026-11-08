@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
-    <title>A estação das modas!</title>
+    <title>SNEAKERS store</title>
 </head>
 
 <body>
+    <script src="acessibilidade.js"></script>
+
 
     <header>
 
@@ -22,7 +24,20 @@
         <a href="index.html" class="cabecalho">Inicio</a>
         <a href="promocoes.html" class="cabecalho">Promoções</a>
         <a href="lancamentos.html" class="cabecalho">Laçamentos</a>
-        <a href="sobre-nos.html" class="cabecalho">Sobre nós</a>
+        <div class="painel-acessibilidade">
+
+    <button onclick="alterarZoom(1)">A+</button>
+
+    <button onclick="alterarZoom(-1)">A-</button>
+
+    <button onclick="alterarContraste(1)">+ Contraste</button>
+
+    <button onclick="alterarContraste(-1)">- Contraste</button>
+
+    <button onclick="restaurarAcessibilidade()">Restaurar</button>
+
+</div>
+
 
     </header>
 
@@ -39,23 +54,22 @@
 
 
             <div class="tela-inicial">
-                <img id="tela-de-inicio" src="imagens/fundo-da-pagina/nike-jordan.png" alt="">
+                <img id="tela-de-inicio" src="imagens/fundo-da-pagina/nike-jordan.png" alt="Nike Jordan">
             </div>
         </section>
 
-        <!-- <div class="container-anuncios">
+         <div class="container-anuncios">
             <h3 class="anuncio">Frete grátis</h3>
             <h3 class="anuncio">Pague em 10X</h3>
             <h3 class="anuncio">Troca facil</h3>
             <h3 class="anuncio">Promoções até 25%</h3>
-        </div> -->
+        </div> 
 
-        <h3 class="tipo">Selecio seu tipo:</h3>
+
         <div class="genero">
+            <a href="pagina-masculina.html" class="tipo-genero">Clique aqui para selecionar o seu modelo!</a>
 
-            <a href="pagina-masculina.html" class="tipo-genero">Masculino</a>
-            <a href="pagina-feminina.html" class="tipo-genero"> Feminina</a>
-        </div>
+
 
 
 
