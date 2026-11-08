@@ -66,3 +66,9 @@ O projeto pode ser acessado pelo link abaixo:
 | **Juan** | Criação das páginas individuais dos produtos. |
 | **Rafael Marcelino** | Criação da página de lançamentos e correção de erros. |
 | **Natanael** | Criação das páginas individuais dos produtos. |
+
+## 6. Observações
+
+- **Carregamento das imagens:** algumas imagens dos produtos podem apresentar demora para carregar ao acessar o site. Isso pode ocorrer devido ao tamanho dos arquivos de imagem e ao tempo de carregamento dos recursos hospedados.
+
+- O projeto está em desenvolvimento e poderá receber melhorias futuras relacionadas ao desempenho e à experiência de navegação.
