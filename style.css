@@ -25,6 +25,67 @@ header {
     border-radius: 30px;
     padding: 10px 40px;
 }
+/* PAINEL DE ACESSIBILIDADE */
+
+.painel-acessibilidade {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 10px 20px;
+}
+
+.painel-acessibilidade button {
+    padding: 8px 12px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.painel-acessibilidade button:hover {
+    background-color: #f07818;
+    color: white;
+}
+
+/* CONTRASTE AUMENTADO */
+
+body.contraste-alto {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+body.contraste-alto header,
+body.contraste-alto main,
+body.contraste-alto section,
+body.contraste-alto .card-produto,
+body.contraste-alto footer {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+body.contraste-alto h1,
+body.contraste-alto h2,
+body.contraste-alto h3,
+body.contraste-alto p,
+body.contraste-alto span,
+body.contraste-alto a {
+    color: #fff !important;
+}
+
+body.contraste-alto button {
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 2px solid #fff !important;
+}
+
+body.contraste-alto a {
+    text-decoration: underline;
+}
 
 .cabecalho:hover {
     background-color: #FF6600;
@@ -134,17 +195,6 @@ h3 {
     color: black;
 }
 
-@media (max-width: 768px) {
-    .banner-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .banner-texto {
-        max-width: 100%;
-        margin-bottom: 30px;
-    }
-}
 
 .imagens-pagina-masculina {
     display: grid;
@@ -294,6 +344,12 @@ h3 {
     transition: transform 0.2s ease;
 }
 
+.nova-linha
+{
+    text-align: center;
+    color: #FF6600;
+    font-size: 30px;
+}
 .cor-do-tenis button:hover {
     transform: scale(1.1);
 }
@@ -348,4 +404,17 @@ h3 {
 
 .botao-comprar:hover {
     background-color: #e05a00;
+}
+
+
+@media (max-width: 768px) {
+    .banner-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-texto {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
 }
